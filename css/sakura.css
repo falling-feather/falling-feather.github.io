@@ -1,0 +1,32 @@
+/* 樱花效果控制按钮样式 */
+.sakura-toggle {
+    font-size: 1.2em;
+    transition: transform 0.3s ease, opacity 0.3s ease;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.sakura-toggle:hover {
+    transform: scale(1.2);
+    opacity: 0.8;
+}
+
+.sakura-toggle.active {
+    animation: sakura-pulse 2s ease-in-out infinite;
+}
+
+@keyframes sakura-pulse {
+    0%, 100% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.15);
+    }
+}
+
+/* 确保按钮在导航栏中正确显示 */
+#sakura-toggle-btn-wrapper {
+    display: flex;
+    align-items: center;
+}
+
