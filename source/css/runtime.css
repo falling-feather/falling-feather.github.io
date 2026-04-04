@@ -1,0 +1,22 @@
+/* 网站运行时间样式 */
+#site-runtime {
+    margin-top: 10px;
+    font-size: 0.9em;
+    opacity: 0.8;
+    text-align: center;
+    color: inherit;
+    transition: opacity 0.3s ease;
+}
+
+#site-runtime:hover {
+    opacity: 1;
+}
+
+/* 暗色模式适配 */
+html[data-user-color-scheme="dark"] #site-runtime {
+    opacity: 0.7;
+}
+
+html[data-user-color-scheme="dark"] #site-runtime:hover {
+    opacity: 0.9;
+}

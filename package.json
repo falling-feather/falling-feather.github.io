@@ -1,0 +1,33 @@
+{
+  "name": "falling-feather-blog",
+  "version": "1.0.0",
+  "description": "Falling_feather's Blog based on Hexo and Fluid theme",
+  "main": "index.js",
+  "scripts": {
+    "preview": "hexo clean && hexo generate && hexo server",
+    "publish": "hexo clean && hexo generate && hexo deploy",
+    "sync:stats": "node scripts/sync-post-stats.mjs"
+  },
+  "keywords": [
+    "hexo",
+    "blog",
+    "fluid"
+  ],
+  "author": "falling-feather",
+  "license": "MIT",
+  "dependencies": {
+    "hexo": "^6.3.0",
+    "hexo-theme-fluid": "^1.9.8",
+    "hexo-generator-archive": "^1.0.0",
+    "hexo-generator-category": "^1.0.0",
+    "hexo-generator-index": "^2.0.0",
+    "hexo-generator-tag": "^1.0.0",
+    "hexo-renderer-marked": "^6.0.0",
+    "hexo-renderer-stylus": "^2.1.0",
+    "hexo-server": "^3.0.0",
+    "hexo-deployer-git": "^3.0.0",
+    "hexo-generator-search": "^2.4.3"
+  },
+  "devDependencies": {}
+}
+

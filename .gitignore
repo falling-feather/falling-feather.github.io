@@ -1,0 +1,22 @@
+# Hexo
+.deploy_git/
+db.json
+
+# Dependencies
+node_modules/
+
+# Editor
+Blog.code-workspace
+*.code-workspace
+
+# OS
+Thumbs.db
+Desktop.ini
+.DS_Store
+
+# GitHub (empty workflows)
+.github/
+node_modules
+
+# 闲置文件（未使用的图片、工具脚本、说明文档等）
+闲置/
