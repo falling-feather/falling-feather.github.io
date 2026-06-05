@@ -1,6 +1,9 @@
 ---
 title: 欢迎你们
 date: 2025-12-23 00:00:00
+permalink: /2025/12/22/welcome-you/
+description: 这是我的小小博客，欢迎大家来玩喵。
+gitalk_id: welcome-you-2025-12-23
 tags:
   - 欢迎
 categories:
